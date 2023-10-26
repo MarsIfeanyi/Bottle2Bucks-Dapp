@@ -1,4 +1,4 @@
-# EcoDrive Chain Decentralized Application
+# Bottle To Bucks Decentralized Application
 
 Bottle2Bucks is a Decentralized Application (dApp) that allows user to properly Dispose and Recycle used plastic (pet bottles). User will get paid the EDC token upon successful disposal and the EDC Token can be converted back to USDC by the user.
 
