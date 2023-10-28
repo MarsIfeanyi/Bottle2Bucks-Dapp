@@ -84,10 +84,6 @@ contract BottleBucks {
             addressToUser[msg.sender].usdcWalletAddress == _uSDCWalletAddress,
             "Not a valid Recycler"
         );
-        // require(
-        //     !addressToSubmitted[msg.sender],
-        //     "Address has already been submitted"
-        // );
 
         // // Mark the user as submitted
         // addressToSubmitted[msg.sender] = true;
