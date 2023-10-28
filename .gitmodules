@@ -1,0 +1,6 @@
+[submodule "smartContract/lib/solmate"]
+	path = smartContract/lib/solmate
+	url = https://github.com/transmissions11/solmate
+[submodule "smartContract/lib/openzeppelin-contracts"]
+	path = smartContract/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
