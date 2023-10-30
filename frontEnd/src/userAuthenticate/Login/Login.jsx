@@ -157,7 +157,6 @@ function Login({ Clickhandler }) {
             <p className={styles["demac"]}>OR</p>
             <p className={styles["liney"]}></p>
           </div>
-
           <Button
             style={{ background: "#344054" }}
             text="Sign in with metamask"
