@@ -12,6 +12,13 @@
   "dependencies": {
     "@babel/core": "^7.21.8",
     "@babel/preset-env": "^7.21.5",
+    "@biconomy/account": "^3.1.0",
+    "@biconomy/bundler": "^3.1.0",
+    "@biconomy/common": "^3.1.0",
+    "@biconomy/core-types": "^3.1.0",
+    "@biconomy/modules": "^3.1.0",
+    "@biconomy/paymaster": "^3.1.0",
+    "@biconomy/web3-auth": "^3.1.0",
     "@circle-fin/circle-sdk": "^2.0.0",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
@@ -23,7 +30,7 @@
     "@rainbow-me/rainbowkit": "^1.0.9",
     "axios": "^1.4.0",
     "cors": "^2.8.5",
-    "ethers": "^6.7.1",
+    "ethers": "5.7.2",
     "express": "^4.18.2",
     "instascan": "^1.0.0",
     "jsqr": "^1.4.0",
@@ -38,6 +45,7 @@
     "web3modal": "^1.9.10"
   },
   "devDependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^4.0.0",
@@ -48,6 +56,8 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
     "postcss": "^8.4.28",
+    "rollup-plugin-polyfill-node": "^0.12.0",
+    "stream-browserify": "^3.0.0",
     "tailwindcss": "^3.3.3",
     "vite": "^4.3.2"
   }
