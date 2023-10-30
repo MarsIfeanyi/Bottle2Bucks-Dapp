@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
         <div className={design.Footer_cols}>
-          <h3>BIRC</h3>
+          <h3>bBucks</h3>
           <p>Home</p>
           <p>About</p>
           <p>How it works</p>
@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
       </div>
       <p className={design.Footer_bottom}>
-        2023 All Copyrights are reserved BIRC
+        2023 All Copyrights are reserved bBucks
       </p>
     </div>
   );
