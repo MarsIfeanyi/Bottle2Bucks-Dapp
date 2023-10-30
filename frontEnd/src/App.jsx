@@ -1,6 +1,12 @@
 // RainbowKit
 import "@rainbow-me/rainbowkit/styles.css";
-import { getDefaultWallets, RainbowKitProvider } from "@rainbow-me/rainbowkit";
+import {
+  getDefaultWallets,
+  RainbowKitProvider,
+  darkTheme,
+  lightTheme,
+  midnightTheme,
+} from "@rainbow-me/rainbowkit";
 import { configureChains, createConfig, WagmiConfig } from "wagmi";
 import {
   mainnet,
@@ -37,6 +43,7 @@ const wagmiConfig = createConfig({
 import "./index.css";
 
 import { Routes, Route } from "react-router-dom";
+
 import Login from "./userAuthenticate/Login/Login";
 import Signup from "./userAuthenticate/Signup/Signup";
 import Home from "./Page/Home/Home";
@@ -64,7 +71,16 @@ function App() {
   return (
     <>
       <WagmiConfig config={wagmiConfig}>
-        <RainbowKitProvider chains={chains}>
+        <RainbowKitProvider
+          chains={chains}
+          coolMode
+          theme={darkTheme({
+            accentColor: "#8BC34A", //color of wallet  try #703844
+            accentColorForeground: "white", //color of text
+            borderRadius: "large", //rounded edges
+            fontStack: "system",
+          })}
+        >
           <Routes>
             <Route path="dashboard" element={<PrivateRoutes />}>
               <Route path="" element={<DashMain />} />
@@ -99,6 +115,8 @@ function App() {
             <Route path="/" element={<PublicRoute />}>
               <Route path="" element={<Home />} />
               <Route path="/signup" element={<Signup />} />
+              {/* <Route path="/login" element={<Login />} /> */}
+
               <Route path="/login" element={<Login />} />
             </Route>
           </Routes>
