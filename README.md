@@ -2,6 +2,10 @@
 
 Bottle2Bucks is a Decentralized Application (dApp) that allows user to properly Dispose and Recycle used plastic (pet bottles). User will get paid the EDC token upon successful disposal and the BTB Token can be converted back to USDC by the user.
 
+Bottle2Bucks utilizes Circle API to reward users with incentives for recycling a specified number of pet bottles.
+By encouraging recycling, we aim to promote a cleaner environment and reduce waste in landfills. Our system provides a simple and efficient way for users to participate in sustainable practices and receive tangible benefits for their efforts.
+These incentives can then be used in our marketplace to purchase items as the user may wish.
+
 ## Presentation Slide
 
 https://drive.google.com/file/d/1GMC7JNVXlVJKtrcabVT11gy2Dhx0z43R/view?usp=sharing
